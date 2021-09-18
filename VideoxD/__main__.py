@@ -1,12 +1,19 @@
 import asyncio
+
+from misc import Calls, app, bot
 from pyrogram import idle
-from misc import app, bot, Calls
+
+
 async def init():
     await app.start()
     print("User account Initialized!")
     await bot.start()
     print("Bot Initialized!")
+    print(
+        "You Might see No Plugins Loaded Thats A Bug By latest version of Pyrogram, Plugins have Been Loaded Successfully!"
+    )
     await idle()
+
 
 loop = asyncio.get_event_loop()
 if __name__ == "__main__":

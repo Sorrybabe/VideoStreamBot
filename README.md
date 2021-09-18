@@ -33,7 +33,7 @@
 <p><a href="https://replit.com/@AaravxD/VsBSession#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p> 
  
 
-## Deploy Locally or Server
+## Deploy Locally or Server ( NO SUPPORT FOR WINDOWS, Dont ask me if you use Windows )
 ``` 
 vegeta@arch $ git clone https://github.com/VegetaxD/VideoStreamBot
 vegeta@arch $ cd VideoStreamBot
@@ -46,13 +46,15 @@ vegeta@arch $ python3 -m VideoxD
 ## Config Vars
 1. `API_ID` : Assistant Account Telegram API_ID, get it from my.telegram.org
 2. `API_HASH` : Assistant Account Telegram API_HASH, get it from my.telegram.org
-3. `BOT_TOKEN` : Your Telegram Bot Token, get it from @Botfather
+3. `BOT_TOKEN` : Your Telegram Bot Token, get it from @Botfather (Make sure Inline is turned On)
 4. `SESSION_STRING` : Pyrogram Session String of Assistant Account.
 5. `VIDEO_CHAT_ID` : Chat ID where you want bot to stream. (Single Chat Only)
  
 ### Commands
 ```
 /vplay - To Stream a Video in Group ( Youtube Search/ Youtube Link )
+
+/vtelegram - To Stream a Video from Telegram
 
 /vstop - To Stop a Video Stream
 
@@ -72,15 +74,15 @@ vegeta@arch $ python3 -m VideoxD
 ## Note
 - This is a Dev branch, So you might experience bugs!
 - I will try to update it regularly!
-- No support Group/Channel for now.
+- You can tell bugs and suggest new updates! 
     
 ### Contact
-    
-<p><a href="https://t.me/VegetaxD"><img src="https://img.shields.io/badge/Contact%20On%20Telegram-blueviolet?style=for-the-badge&logo=telegram" width="200""/></a></p> 
+<p><a href="https://t.me/VideoStreamSupport"><img src="https://img.shields.io/badge/Support%20Chat-blueviolet?style=for-the-badge&logo=telegram" width="120""/></a>
+<a href="https://t.me/VideoStreamingxD"><img src="https://img.shields.io/badge/Telegram%20Channel-blueviolet?style=for-the-badge&logo=telegram" width="120""/></a></p> 
 
 ## Credits
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [PyTgCalls](https://github.com/MarshalX/tgcalls)
+- [MarshalX/TgCalls](https://github.com/MarshalX/tgcalls)
     
 ## License
     
